@@ -1,11 +1,18 @@
 function sortByRating(shops) {
   // Start coding here
+  return shops.sort((a, b) => b.rating - a.rating);
 }
 
 /* 
   1. ควรใช้ Algorithm ใดในการแก้โจทย์นี้ 
+      ans: จำชื่อไม่ได้ครับ  จำได้ตอนนั้นที่ให้โจทย์หาค่าเรียงลำดับครับโดยใช้ sort 
   2. ให้เหตุผลประกอบว่าทำไมถึงเลือกใช้ Algorithm นี้
+      ans: sort เป็นการเรียงลำดับ
   3. ให้ระบุว่า Big O Notation ของ Function นี้คือเท่าไร เพราะอะไร
+      ans: O(1) = จำนวนรอบการทำงานจะคงที่ ไม่เปลี่ยนแปลงไปกับขนาดข้อมูล Input
+           O(n)  จำนวนรอบการทำงานจะเพิ่มขึ้นเป็นสัดส่วนโดยตรงตามขนาดข้อมูล Input
+
+
 */
 
 const shops = [
